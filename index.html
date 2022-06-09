@@ -1,207 +1,120 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>SayurFair</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="shortcut icon" href="img/logo.png">
-  <link rel="stylesheet" href="./assets//font-awesome/all.min.css">
-  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Sayurfair</title>
+
+  <!-- bootsrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
 </head>
-    <body>
-      <!-- landing page -->
-    <div id="landing">
-      <!-- header -->
-      <div class="header">
-        <a href="#" class="logo"><img src="" alt=""></a>
-        <!-- <a href="#" class="button">Create Account</a> -->
-        <a href="https://instagram.com/sayurfair?utm_medium=copy_link" class="">Instagram</a>
-        <a href="https://www.instagram.com/sayurfair/p/CT_lQOoB6Sp/?utm_medium=copy_link" class="">Area</a>
-        <a href="https://wa.me/6285877708660" class="">Contact</a>
-
-      </div>
-
-      <!-- image slider -->
-      <div class="slider slider-1">
-        <img class="ratio" src="img/logo.png" />
-        <input class="slide" type="radio" name="slider-1" id="s-1-1" /><label for="s-1-1"></label>
-        <div>
-          <img clas="ratio" src="img/bg1.jpg" />
-          <div class="content">
-            <h1>
-              <span style="color:green;">Sayur</span>
-              <span style="color:orange;">Fair</span>
-            </h1>
-            <h3>Sayuran Fresh langsung dari petani</h3>
-            <a href="https://wa.link/y17kb8" class="button button-blue">Pesan</a>
-          </div>
-        </div>
-        <input class="slide" type="radio" name="slider-1" id="s-1-2" /><label for="s-1-2"></label>
-        <div>
-          <img src="img/bg2.jpg" />
-          <div class="content">
-            <h1>
-              <span style="color:green;">Sayur</span>
-              <span style="color:orange;">Fair</span>
-            </h1>
-            <h3>Mengantar Pesanan sampai tujuan</h3>
-            <a href="https://wa.link/y17kb8" class="button button-orange">Pesan</a>
-          </div>
-        </div>
-        <input class="slide" type="radio" name="slider-1" id="s-1-3" checked /><label for="s-1-3"></label>
-        <div>
-          <img src="img/bg3.jpg" />
-          <div class="content">
-            <h1>
-              <span style="color:green;">Sayur</span>
-              <span style="color:orange;">Fair</span>
-            </h1>
-            <h3>Penuhi semua kebutuhan Sayurmu</h3>
-            <a href="https://wa.link/y17kb8" class="button button">Pesan Sekarang</a>
-          </div>
-        </div>  
-        <style type="text/css">
-          #landing .slider-1 img.ratio {padding:0 33%;}
-          #landing .slider-1 .content {max-width:33%; margin:5% 0 0 18%;}
-          #landing .slider-1 .content h3 {color:#fff; font-size:2.125em; font-weight:normal; margin:0 0 4%;}
-          #landing .slider-1 .content p {color:#fff; font-size:1.1em; font-weight:normal;}
-          #landing .slider-1 .button {position:absolute; bottom:17%; min-width:12.5em; font-size:.95em; font-weight:normal; border-width:.14em;}
-        </style>
-      </div>
-      <br><br><br><br>
-      
-    <div class="carousel"
-      data-flickity='{ "lazyLoad": true }'>
-      <div class="carousel-cell">
-        <img class="carousel-cell-image"
-          data-flickity-lazyload="img/bombai.jpg" alt="tulip" />
-      </div>
-      <div class="carousel-cell">
-        <img class="carousel-cell-image"
-          data-flickity-lazyload="img/brokoli.jpg" alt="grapes" />
-      </div>
-      <div class="carousel-cell">
-        <img class="carousel-cell-image"
-          data-flickity-lazyload="img/jagung.jpg" alt="raspberries" />
-      </div>
-      <div class="carousel-cell">
-        <img class="carousel-cell-image"
-          data-flickity-lazyload="img/kentang.jpg" alt="wolf" />
-      </div>
-      <div class="carousel-cell">
-        <img class="carousel-cell-image"
-          data-flickity-lazyload="img/kol.jpg" alt="sea" />
-      </div>
-      <div class="carousel-cell">
-        <img class="carousel-cell-image"
-          data-flickity-lazyload="img/kubis.jpg" alt="leaf droplets" />
-      </div>
-      <div class="carousel-cell">
-        <img class="carousel-cell-image"
-          data-flickity-lazyload="img/labu.jpg" alt="gulls" />
-      </div>
-      <div class="carousel-cell">
-        <img class="carousel-cell-image"
-          data-flickity-lazyload="img/pokcoi.jpg" alt="touch screen" />
-      </div>
-      <div class="carousel-cell">
-        <img class="carousel-cell-image"
-          data-flickity-lazyload="img/terong.jpg" alt="van" />
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(21, 253, 0, 0.219); font-weight: bold; font-size: large; font-family: Arial, Helvetica, sans-serif;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="/img/logo.png" alt="Logo" style="max-width: 50px;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
       </div>
     </div>
+  </nav>
 
-    <!-- space -->
-    <br><br><br><br>
-
-    <div class="carousel"
-      data-flickity='{ "lazyLoad": true }'>
-      <div class="carousel-cell">
-        <img class="carousel-cell-image"
-          data-flickity-lazyload="img/baput.jpg" alt="tulip" />
-      </div>
-      <div class="carousel-cell">
-        <img class="carousel-cell-image"
-          data-flickity-lazyload="img/timun.jpg" alt="grapes" />
-      </div>
-      <div class="carousel-cell">
-        <img class="carousel-cell-image"
-          data-flickity-lazyload="img/tomat.jpg" alt="raspberries" />
-      </div>
-      <div class="carousel-cell">
-        <img class="carousel-cell-image"
-          data-flickity-lazyload="img/bamer.jpg" alt="wolf" />
-      </div>
-      <div class="carousel-cell">
-        <img class="carousel-cell-image"
-          data-flickity-lazyload="img/dbaw.jpg" alt="sea" />
-      </div>
-      <div class="carousel-cell">
-        <img class="carousel-cell-image"
-          data-flickity-lazyload="img/kubis.jpg" alt="leaf droplets" />
-      </div>
-      <div class="carousel-cell">
-        <img class="carousel-cell-image"
-          data-flickity-lazyload="img/labu.jpg" alt="gulls" />
-      </div>
-      <div class="carousel-cell">
-        <img class="carousel-cell-image"
-          data-flickity-lazyload="img/pokcoi.jpg" alt="touch screen" />
-      </div>
-      <div class="carousel-cell">
-        <img class="carousel-cell-image"
-          data-flickity-lazyload="img/terong.jpg" alt="van" />
-      </div>
+  <!-- header foto/carousel -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
-      
-      <div class="extra">
-        Ayo Segera Pesan Sekrang Juga
-        <br />
-        <a href="https://wa.link/y17kb8" class="button button-green">Order Now</a>
-        <img src="img/qr.png" alt="">
-      </div>
-      <div class="footer">
-        <div class="column">
-          <a href="#">Profil</a>
-          <a href="#">Testimoni</a>
-        </div>
-        <div class="column">
-          <a href="#">About</a>
-          <a href="#">Kontak</a>
-          <a href="#">Alamat</a>
-          <a href="#">Review</a>
-        </div>
-        <div class="column">
-          <a href="https://instagram.com/sayurfair?utm_medium=copy_link">Instagram</a>
-          <a href="https://wa.me/6285877708660">WhatsApp</a>
-          <a class="social-media-icon" href="https://link_social_mendia_anda"><span class="fab fa-instagram"></span></a>
-          <a class="social-media-icon" href="https://link_social_mendia_anda"><span class="fab fa-whatsapp"></span></a>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/img/bg1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 style="color:green ; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: bolder; font-size:60px;">Sayur<span style="color: orange;">Fair</span></h1>
+          <p>Penuhi Kebutuhan sayur anda</p>
         </div>
       </div>
-      <div class="copyright">
-        <span>www.sayurfair.com</span>
-        
-          
+      <div class="carousel-item">
+        <img src="/img/bg2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 style="color:green ; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: bolder; font-size:60px;">Sayur<span style="color: orange;">Fair</span></h1>
+          <p>Sayur Fresh langsung dari petani</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/img/bg3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 style="color:green ; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: bolder; font-size:60px;">Sayur<span style="color: orange;">Fair</span></h1>
+          <p>Siap antar sampai tujuan</p>
         </div>
       </div>
     </div>
-    <script type="text/javascript">
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
 
+  <!-- content keuntungan -->
+  <div class="content text-center" style="padding:40px ;">
+      <div class="text-center">
+        <h1>Nikmati Layanan Kami</h1>
+      </div>
+    <div class="card" style="width: 18rem; float:left ; margin: 12px;">
+      <img src="/img/deliv.svg" class="card-img-top" alt="..." >
+      <div class="card-body">
+        <p class="card-text">langsung diantar sampai tujuan</p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;float:left ; margin: 12px;">
+      <img src="/img/far.svg" class="card-img-top" alt="..." >
+      <div class="card-body">
+        <p class="card-text">Dari petani langsung</p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;float:left ; margin: 12px;">
+      <img src="/img/loc.svg" class="card-img-top" alt="..." >
+      <div class="card-body">
+        <p class="card-text">Melayani daerah Soloraya</p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;float:left ; margin: 12px;">
+      <img src="/img/online.svg" class="card-img-top" alt="..." >
+      <div class="card-body">
+        <p class="card-text">Belanja langsung dari rumah</p>
+      </div>
+    </div>
+  </div>
 
-
-    function doSlide (slider) {
-      var id, o = slider.querySelectorAll("input.slide"), last = o.length-1, current = slider.querySelector("input.slide:checked");
-      for (var i=0; i<o.length; i++) if (o[i] === current) {id = i; break;}
-      o[id >= last ? 0 : id + 1].click();
-    }
-    function onSlide (e) {
-      var o = e.target.parentNode;
-      clearTimeout(o.autoslider);
-      o.autoslider = setTimeout(function(){doSlide(o);}, 7e3);
-    }
-    $(function(){
-      $(document).on("click", "input.slide", onSlide);
-      $(".slider").each(function(){doSlide(this)});
-    });
-    </script>
-    </body>
+  <!-- Katalog -->
+  <!-- <div class="card" style="width: 18rem;">
+    <img src="/img/bamer.jpg" class="card-img-top" alt="...">
+  </div> -->
+  
+</body>
 </html>
