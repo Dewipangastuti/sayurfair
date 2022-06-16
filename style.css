@@ -9,3 +9,16 @@ body {
 .content .card {
   border-radius: 20px;
 }
+
+.katalog {
+  padding: 60px;
+  background-color: rgba(21, 253, 0, 0.219);
+}
+
+.katalog .card {
+  border-radius: 20px;
+}
+
+.card .layanan{
+  
+}
